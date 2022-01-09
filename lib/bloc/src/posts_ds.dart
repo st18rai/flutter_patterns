@@ -9,10 +9,13 @@ class PostsDs {
 
     final url = Uri.parse('${_baseUrl}posts');
 
-    http.Response res = await http.get(url);
+    http.Response response = await http.get(url);
 
-    posts.addAll(postsListFromJson(res.body));
-
-    return posts;
+    if (response.statusCode == 200) {
+      posts.addAll(postsListFromJson(response.body));
+      return posts;
+    } else {
+      throw Exception("Unable to perform request!");
+    }
   }
 }

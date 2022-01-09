@@ -1,4 +1,4 @@
-import 'package:flutter_patterns/mvvm/model/post.dart';
+import 'package:flutter_patterns/mvp/model/post.dart';
 import 'package:http/http.dart' as http;
 
 class PostsDs {
