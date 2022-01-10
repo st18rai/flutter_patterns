@@ -38,6 +38,7 @@ dependencies:
   flutter_bloc: ^7.0.0
   pmvvm: ^2.3.0
   http: ^0.13.4
+  mvc_pattern: ^8.2.2
 
 dev_dependencies:
   flutter_test:
