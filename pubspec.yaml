@@ -39,6 +39,9 @@ dependencies:
   pmvvm: ^2.3.0
   http: ^0.13.4
   mvc_pattern: ^8.2.2
+  redux: ^5.0.0
+  flutter_redux: ^0.8.2
+  redux_epics: ^0.15.0
 
 dev_dependencies:
   flutter_test:
